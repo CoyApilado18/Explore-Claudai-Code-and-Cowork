@@ -126,4 +126,94 @@ In this step, we'll:
 • Explore the salary data directly from your terminal.  
 • Build an interactive dashboard with Chart.js charts.  
 
-`Claude Code` is best for building things. Unlike Claude.ai where you upload files to a chat window, Claude Code works directly with files on your machine. It can read your data, write code, run scripts, and create files autonomously.
+`Claude Code` is best for building things. Unlike `Claude.ai` where you upload files to a chat window, `Claude Code` works directly with files on your machine. It can read your data, write code, run scripts, and create files autonomously.
+
+
+💡 When should I use Claude Code instead of Claude.ai?
+Use `Claude.ai` (the browser chat) when you want to explore data, ask questions, and generate quick visuals without touching your file system. 
+Use `Claude Code` (the terminal tool) when you want to "build" something that lives on your computer, like a dashboard, a script, or a full application. `Claude Code` reads and writes real files, so the output is permanent.
+
+• Open a terminal window and navigate to your dataset folder:
+```bash
+cd ~/Desktop/Claude_Compare/
+```
+
+• Start Claude Code:
+```bash
+claude
+```
+
+• Confirm you see the Claude Code interactive prompt ready for input.
+![alt images](claude.png)
+
+
+💡 What is Claude Code?
+`Claude Code` is a terminal-based AI coding agent by Anthropic. You run it from your command line, give it natural language instructions, and it reads, writes, and executes code directly on your computer. It's best for building tools, writing code, and creating files that live on your machine.  
+
+
+### Explore the Data with Claude Code
+Now let's see how Claude Code interacts with local files differently from Claude.ai.
+
+• In the Claude Code prompt, type this message and press `Enter`:  
+```bash
+Look at the cloud salary CSV in this folder and tell me what's in it
+```
+
+`Claude Code` reads the file directly from your local filesystem. There's no uploading involved. It scans the CSV, understands the columns and rows, and gives you a summary.  
+
+💡 What's different from Claude.ai?
+In Step 2, you uploaded the CSV to Claude.ai's chat window. Here, Claude Code reads the file directly from your computer's file system. This means it can work with files of any size and access multiple files at once without manual uploads.  
+
+
+### Build an Interactive HTML Dashboard
+This is where Claude Code really shines. You're going to ask it to build an entire interactive dashboard with a single prompt.
+
+• In the Claude Code prompt, type this message and press `Enter`:
+```bash
+Create an interactive HTML dashboard that visualizes this cloud salary data. Use Chart.js loaded from a CDN, no Python. Include: a bar chart of average salary by role, a city comparison chart, and a breakdown by cloud platform. Save it as dashboard.html.
+```
+
+Watch Claude Code work. It creates the HTML file with embedded Chart.js charts, all in one go.
+• If Claude Code asks for permission to create or write files, type `y` and press `Enter` to grant access.
+
+
+💡 Why is Claude Code asking for permission?
+`Claude Code` runs on your local machine and needs your explicit approval before it creates, edits, or deletes any files. This keeps you in control of what changes are made to your computer. You will see these permission prompts each time Claude Code wants to write a new file or modify an existing one.  
+
+
+• Open `dashboard.html` in your browser. You can double-click the file in your file explorer.
+![alt images](dashboard-html.png)
+
+- Your dashboard is a standalone HTML file with interactive charts. You can hover over data points, and it all runs locally in your browser with zero dependencies.
+- Your dashboard may already include some filtering or interactive features depending on what Claude Code generated. Take a look at what you have before iterating.
+
+• Now iterate on your dashboard. Try this prompt in `Claude Code`:
+```bash
+Add a search bar
+```
+![alt images](dashboard-html-search-bar.png)
+
+💡 Why is this powerful?
+`Claude Code` writes and executes code autonomously. The output files appear directly in your folder. You can keep iterating with natural language prompts to add features like responsive layouts, dark mode toggles, or entirely new charts.
+
+Now we have got an interactive dashboard on our machine.
+
+
+## Step 4. Organize our Project with Cowork
+Our interactive dashboard is built and running locally. But if we take a look at our Claude_Compare/ directory, tt has the original CSV, chart images, and an HTML dashboard all mixed together. Before wrapping up, let's get everything organized.
+
+"Claude Desktop" has a built-in autonomous agent called `Cowork` that works directly on our local files. We describe what we want, it handles the rest. In this step, we will install the Claude Desktop app, share our project folder with `Cowork`, and let it organize everything into a clean structure with a polished summary document.  
+
+In this step, we'll:
+• Install and set up the Claude Desktop app.  
+• Share our project folder with `Cowork`.  
+• Use `Cowork` to organize files and generate a summary document.  
+
+
+### Install the Claude Desktop App
+So far we have used `Claude.ai` in the browser and `Claude Code` in the terminal. Now it is time to set up the Claude Desktop app so we can use `Cowork`.  
+
+• Go to [claude.ai/download](https://claude.com/download)
+• Download the .dmg installer.
+
+https://code.claude.com/docs/en/desktop-linux#install
