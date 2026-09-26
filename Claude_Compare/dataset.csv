@@ -1,0 +1,216 @@
+Job Title,City,Salary,Experience Level,Cloud Platform,Company Size
+Cloud Solutions Architect,San Francisco,185000,Senior,AWS,Large
+Cloud Solutions Architect,New York,178000,Senior,Azure,Large
+Cloud Solutions Architect,Seattle,182000,Senior,AWS,Large
+Cloud Solutions Architect,Austin,165000,Mid-Level,GCP,Medium
+Cloud Solutions Architect,Chicago,160000,Mid-Level,AWS,Large
+Cloud Solutions Architect,Denver,158000,Mid-Level,Azure,Medium
+Cloud Solutions Architect,Boston,175000,Senior,GCP,Large
+Cloud Solutions Architect,Atlanta,155000,Mid-Level,AWS,Medium
+Cloud Solutions Architect,Los Angeles,172000,Senior,Azure,Large
+Cloud Solutions Architect,Dallas,152000,Mid-Level,AWS,Medium
+DevOps Engineer,San Francisco,170000,Senior,AWS,Large
+DevOps Engineer,New York,165000,Senior,Azure,Large
+DevOps Engineer,Seattle,168000,Senior,GCP,Large
+DevOps Engineer,Austin,148000,Mid-Level,AWS,Medium
+DevOps Engineer,Chicago,145000,Mid-Level,Azure,Medium
+DevOps Engineer,Denver,142000,Mid-Level,AWS,Small
+DevOps Engineer,Boston,160000,Senior,AWS,Large
+DevOps Engineer,Atlanta,138000,Mid-Level,GCP,Medium
+DevOps Engineer,Los Angeles,155000,Senior,Azure,Large
+DevOps Engineer,Dallas,140000,Mid-Level,AWS,Medium
+DevOps Engineer,San Francisco,135000,Junior,AWS,Medium
+DevOps Engineer,New York,130000,Junior,Azure,Large
+DevOps Engineer,Seattle,132000,Junior,GCP,Medium
+Cloud Security Engineer,San Francisco,180000,Senior,AWS,Large
+Cloud Security Engineer,New York,175000,Senior,Azure,Large
+Cloud Security Engineer,Seattle,178000,Senior,AWS,Large
+Cloud Security Engineer,Austin,158000,Mid-Level,GCP,Medium
+Cloud Security Engineer,Chicago,155000,Mid-Level,AWS,Large
+Cloud Security Engineer,Denver,150000,Mid-Level,Azure,Medium
+Cloud Security Engineer,Boston,172000,Senior,AWS,Large
+Cloud Security Engineer,Atlanta,148000,Mid-Level,Azure,Medium
+Cloud Security Engineer,Los Angeles,168000,Senior,GCP,Large
+Cloud Security Engineer,Dallas,145000,Mid-Level,AWS,Medium
+Cloud Data Engineer,San Francisco,168000,Senior,GCP,Large
+Cloud Data Engineer,New York,162000,Senior,AWS,Large
+Cloud Data Engineer,Seattle,165000,Senior,GCP,Large
+Cloud Data Engineer,Austin,145000,Mid-Level,AWS,Medium
+Cloud Data Engineer,Chicago,142000,Mid-Level,Azure,Large
+Cloud Data Engineer,Denver,138000,Mid-Level,GCP,Medium
+Cloud Data Engineer,Boston,158000,Senior,AWS,Large
+Cloud Data Engineer,Atlanta,135000,Mid-Level,GCP,Medium
+Cloud Data Engineer,Los Angeles,155000,Senior,Azure,Large
+Cloud Data Engineer,Dallas,132000,Mid-Level,AWS,Medium
+Cloud Data Engineer,San Francisco,125000,Junior,GCP,Medium
+Cloud Data Engineer,New York,120000,Junior,AWS,Large
+Cloud Network Engineer,San Francisco,160000,Senior,AWS,Large
+Cloud Network Engineer,New York,155000,Senior,Azure,Large
+Cloud Network Engineer,Seattle,158000,Senior,AWS,Large
+Cloud Network Engineer,Austin,140000,Mid-Level,Azure,Medium
+Cloud Network Engineer,Chicago,138000,Mid-Level,AWS,Medium
+Cloud Network Engineer,Denver,135000,Mid-Level,GCP,Small
+Cloud Network Engineer,Boston,152000,Senior,AWS,Large
+Cloud Network Engineer,Atlanta,132000,Mid-Level,Azure,Medium
+Cloud Network Engineer,Los Angeles,148000,Senior,GCP,Large
+Cloud Network Engineer,Dallas,130000,Mid-Level,AWS,Medium
+Site Reliability Engineer,San Francisco,178000,Senior,GCP,Large
+Site Reliability Engineer,New York,172000,Senior,AWS,Large
+Site Reliability Engineer,Seattle,175000,Senior,GCP,Large
+Site Reliability Engineer,Austin,155000,Mid-Level,AWS,Medium
+Site Reliability Engineer,Chicago,150000,Mid-Level,Azure,Large
+Site Reliability Engineer,Denver,148000,Mid-Level,GCP,Medium
+Site Reliability Engineer,Boston,168000,Senior,AWS,Large
+Site Reliability Engineer,Atlanta,145000,Mid-Level,GCP,Medium
+Site Reliability Engineer,Los Angeles,165000,Senior,Azure,Large
+Site Reliability Engineer,Dallas,142000,Mid-Level,AWS,Medium
+Site Reliability Engineer,San Francisco,140000,Junior,GCP,Large
+Site Reliability Engineer,Seattle,135000,Junior,AWS,Medium
+Cloud Database Administrator,San Francisco,155000,Senior,AWS,Large
+Cloud Database Administrator,New York,150000,Senior,Azure,Large
+Cloud Database Administrator,Seattle,152000,Senior,AWS,Large
+Cloud Database Administrator,Austin,135000,Mid-Level,Azure,Medium
+Cloud Database Administrator,Chicago,132000,Mid-Level,AWS,Medium
+Cloud Database Administrator,Denver,128000,Mid-Level,GCP,Small
+Cloud Database Administrator,Boston,148000,Senior,AWS,Large
+Cloud Database Administrator,Atlanta,125000,Mid-Level,Azure,Medium
+Cloud Database Administrator,Los Angeles,145000,Senior,GCP,Large
+Cloud Database Administrator,Dallas,122000,Mid-Level,AWS,Medium
+Cloud Platform Engineer,San Francisco,172000,Senior,GCP,Large
+Cloud Platform Engineer,New York,168000,Senior,AWS,Large
+Cloud Platform Engineer,Seattle,170000,Senior,Azure,Large
+Cloud Platform Engineer,Austin,150000,Mid-Level,GCP,Medium
+Cloud Platform Engineer,Chicago,148000,Mid-Level,AWS,Large
+Cloud Platform Engineer,Denver,145000,Mid-Level,Azure,Medium
+Cloud Platform Engineer,Boston,165000,Senior,GCP,Large
+Cloud Platform Engineer,Atlanta,142000,Mid-Level,AWS,Medium
+Cloud Platform Engineer,Los Angeles,162000,Senior,Azure,Large
+Cloud Platform Engineer,Dallas,138000,Mid-Level,GCP,Medium
+Cloud Platform Engineer,San Francisco,130000,Junior,AWS,Medium
+Cloud Platform Engineer,New York,125000,Junior,Azure,Large
+Cloud Consultant,San Francisco,165000,Senior,AWS,Large
+Cloud Consultant,New York,160000,Senior,Azure,Large
+Cloud Consultant,Seattle,162000,Senior,GCP,Large
+Cloud Consultant,Austin,142000,Mid-Level,AWS,Medium
+Cloud Consultant,Chicago,140000,Mid-Level,Azure,Medium
+Cloud Consultant,Denver,135000,Mid-Level,GCP,Small
+Cloud Consultant,Boston,158000,Senior,AWS,Large
+Cloud Consultant,Atlanta,132000,Mid-Level,Azure,Medium
+Cloud Consultant,Los Angeles,155000,Senior,GCP,Large
+Cloud Consultant,Dallas,128000,Mid-Level,AWS,Medium
+Cloud Infrastructure Engineer,San Francisco,170000,Senior,AWS,Large
+Cloud Infrastructure Engineer,New York,165000,Senior,Azure,Large
+Cloud Infrastructure Engineer,Seattle,168000,Senior,GCP,Large
+Cloud Infrastructure Engineer,Austin,148000,Mid-Level,AWS,Medium
+Cloud Infrastructure Engineer,Chicago,145000,Mid-Level,Azure,Large
+Cloud Infrastructure Engineer,Denver,142000,Mid-Level,GCP,Medium
+Cloud Infrastructure Engineer,Boston,162000,Senior,AWS,Large
+Cloud Infrastructure Engineer,Atlanta,138000,Mid-Level,Azure,Medium
+Cloud Infrastructure Engineer,Los Angeles,158000,Senior,GCP,Large
+Cloud Infrastructure Engineer,Dallas,135000,Mid-Level,AWS,Medium
+Cloud Support Engineer,San Francisco,130000,Mid-Level,AWS,Large
+Cloud Support Engineer,New York,125000,Mid-Level,Azure,Large
+Cloud Support Engineer,Seattle,128000,Mid-Level,AWS,Medium
+Cloud Support Engineer,Austin,112000,Junior,GCP,Medium
+Cloud Support Engineer,Chicago,110000,Junior,AWS,Medium
+Cloud Support Engineer,Denver,108000,Junior,Azure,Small
+Cloud Support Engineer,Boston,125000,Mid-Level,AWS,Large
+Cloud Support Engineer,Atlanta,105000,Junior,GCP,Small
+Cloud Support Engineer,Los Angeles,122000,Mid-Level,Azure,Medium
+Cloud Support Engineer,Dallas,102000,Junior,AWS,Small
+Cloud Automation Engineer,San Francisco,168000,Senior,AWS,Large
+Cloud Automation Engineer,New York,162000,Senior,Azure,Large
+Cloud Automation Engineer,Seattle,165000,Senior,GCP,Large
+Cloud Automation Engineer,Austin,145000,Mid-Level,AWS,Medium
+Cloud Automation Engineer,Chicago,142000,Mid-Level,Azure,Large
+Cloud Automation Engineer,Denver,138000,Mid-Level,GCP,Medium
+Cloud Automation Engineer,Boston,160000,Senior,AWS,Large
+Cloud Automation Engineer,Atlanta,135000,Mid-Level,Azure,Medium
+Cloud Automation Engineer,Los Angeles,155000,Senior,GCP,Large
+Cloud Automation Engineer,Dallas,132000,Mid-Level,AWS,Medium
+Cloud Migration Specialist,San Francisco,162000,Senior,AWS,Large
+Cloud Migration Specialist,New York,158000,Senior,Azure,Large
+Cloud Migration Specialist,Seattle,160000,Senior,GCP,Large
+Cloud Migration Specialist,Austin,142000,Mid-Level,AWS,Medium
+Cloud Migration Specialist,Chicago,138000,Mid-Level,Azure,Medium
+Cloud Migration Specialist,Denver,135000,Mid-Level,GCP,Small
+Cloud Migration Specialist,Boston,155000,Senior,AWS,Large
+Cloud Migration Specialist,Atlanta,130000,Mid-Level,Azure,Medium
+Cloud Migration Specialist,Los Angeles,152000,Senior,GCP,Large
+Cloud Migration Specialist,Dallas,128000,Mid-Level,AWS,Medium
+FinOps Analyst,San Francisco,145000,Senior,AWS,Large
+FinOps Analyst,New York,140000,Senior,Azure,Large
+FinOps Analyst,Seattle,142000,Senior,GCP,Large
+FinOps Analyst,Austin,125000,Mid-Level,AWS,Medium
+FinOps Analyst,Chicago,122000,Mid-Level,Azure,Medium
+FinOps Analyst,Denver,118000,Mid-Level,GCP,Small
+FinOps Analyst,Boston,138000,Senior,AWS,Large
+FinOps Analyst,Atlanta,115000,Mid-Level,Azure,Medium
+FinOps Analyst,Los Angeles,135000,Senior,GCP,Large
+FinOps Analyst,Dallas,112000,Mid-Level,AWS,Small
+Cloud AI/ML Engineer,San Francisco,190000,Senior,GCP,Large
+Cloud AI/ML Engineer,New York,185000,Senior,AWS,Large
+Cloud AI/ML Engineer,Seattle,188000,Senior,GCP,Large
+Cloud AI/ML Engineer,Austin,165000,Mid-Level,AWS,Medium
+Cloud AI/ML Engineer,Chicago,160000,Mid-Level,Azure,Large
+Cloud AI/ML Engineer,Denver,155000,Mid-Level,GCP,Medium
+Cloud AI/ML Engineer,Boston,182000,Senior,AWS,Large
+Cloud AI/ML Engineer,Atlanta,152000,Mid-Level,GCP,Medium
+Cloud AI/ML Engineer,Los Angeles,178000,Senior,Azure,Large
+Cloud AI/ML Engineer,Dallas,148000,Mid-Level,AWS,Medium
+Cloud AI/ML Engineer,San Francisco,145000,Junior,GCP,Large
+Cloud AI/ML Engineer,New York,140000,Junior,AWS,Large
+Cloud Systems Administrator,San Francisco,140000,Mid-Level,AWS,Large
+Cloud Systems Administrator,New York,135000,Mid-Level,Azure,Large
+Cloud Systems Administrator,Seattle,138000,Mid-Level,AWS,Medium
+Cloud Systems Administrator,Austin,120000,Junior,GCP,Medium
+Cloud Systems Administrator,Chicago,118000,Junior,AWS,Medium
+Cloud Systems Administrator,Denver,115000,Junior,Azure,Small
+Cloud Systems Administrator,Boston,135000,Mid-Level,AWS,Large
+Cloud Systems Administrator,Atlanta,112000,Junior,GCP,Small
+Cloud Systems Administrator,Los Angeles,132000,Mid-Level,Azure,Medium
+Cloud Systems Administrator,Dallas,108000,Junior,AWS,Small
+Cloud Cost Analyst,San Francisco,138000,Senior,AWS,Large
+Cloud Cost Analyst,New York,132000,Senior,Azure,Large
+Cloud Cost Analyst,Seattle,135000,Senior,GCP,Large
+Cloud Cost Analyst,Austin,118000,Mid-Level,AWS,Medium
+Cloud Cost Analyst,Chicago,115000,Mid-Level,Azure,Medium
+Cloud Cost Analyst,Denver,112000,Mid-Level,GCP,Small
+Cloud Cost Analyst,Boston,130000,Senior,AWS,Large
+Cloud Cost Analyst,Atlanta,108000,Mid-Level,Azure,Small
+Cloud Cost Analyst,Los Angeles,128000,Senior,GCP,Medium
+Cloud Cost Analyst,Dallas,105000,Mid-Level,AWS,Small
+Kubernetes Engineer,San Francisco,175000,Senior,GCP,Large
+Kubernetes Engineer,New York,170000,Senior,AWS,Large
+Kubernetes Engineer,Seattle,172000,Senior,GCP,Large
+Kubernetes Engineer,Austin,152000,Mid-Level,AWS,Medium
+Kubernetes Engineer,Chicago,148000,Mid-Level,Azure,Large
+Kubernetes Engineer,Denver,145000,Mid-Level,GCP,Medium
+Kubernetes Engineer,Boston,168000,Senior,AWS,Large
+Kubernetes Engineer,Atlanta,142000,Mid-Level,GCP,Medium
+Kubernetes Engineer,Los Angeles,165000,Senior,Azure,Large
+Kubernetes Engineer,Dallas,138000,Mid-Level,AWS,Medium
+Kubernetes Engineer,San Francisco,132000,Junior,GCP,Medium
+Kubernetes Engineer,Seattle,128000,Junior,AWS,Medium
+Cloud Compliance Analyst,San Francisco,148000,Senior,AWS,Large
+Cloud Compliance Analyst,New York,142000,Senior,Azure,Large
+Cloud Compliance Analyst,Seattle,145000,Senior,AWS,Large
+Cloud Compliance Analyst,Austin,128000,Mid-Level,GCP,Medium
+Cloud Compliance Analyst,Chicago,125000,Mid-Level,Azure,Medium
+Cloud Compliance Analyst,Denver,122000,Mid-Level,AWS,Small
+Cloud Compliance Analyst,Boston,140000,Senior,GCP,Large
+Cloud Compliance Analyst,Atlanta,118000,Mid-Level,Azure,Medium
+Cloud Compliance Analyst,Los Angeles,138000,Senior,AWS,Large
+Cloud Compliance Analyst,Dallas,115000,Mid-Level,GCP,Medium
+Cloud DevSecOps Engineer,San Francisco,178000,Senior,AWS,Large
+Cloud DevSecOps Engineer,New York,172000,Senior,Azure,Large
+Cloud DevSecOps Engineer,Seattle,175000,Senior,GCP,Large
+Cloud DevSecOps Engineer,Austin,155000,Mid-Level,AWS,Medium
+Cloud DevSecOps Engineer,Chicago,150000,Mid-Level,Azure,Large
+Cloud DevSecOps Engineer,Denver,148000,Mid-Level,GCP,Medium
+Cloud DevSecOps Engineer,Boston,170000,Senior,AWS,Large
+Cloud DevSecOps Engineer,Atlanta,145000,Mid-Level,Azure,Medium
+Cloud DevSecOps Engineer,Los Angeles,168000,Senior,GCP,Large
+Cloud DevSecOps Engineer,Dallas,142000,Mid-Level,AWS,Medium
+Cloud DevSecOps Engineer,San Francisco,138000,Junior,AWS,Large
+Cloud DevSecOps Engineer,New York,132000,Junior,Azure,Medium
