@@ -263,6 +263,60 @@ Cowork will read each file, create the subfolders, move and rename files, and ge
 ![alt images](summary-md.png)
 
 
+## Extra Credit
+We have explored data with Claude.ai, built a dashboard with Claude Code, and organized files with Cowork. But which tool should we reach for next time?  
+In this extra credit, we will create a personal decision framework -- a cheat sheet that maps each Claude tool to the situations where it works best.  
+
+In this extra credit, we'll:  
+• Decide which Claude tool to use for building your cheat sheet.  
+• Create a "when to use which" decision framework based on your hands-on experience.  
+• Save your cheat sheet for future reference.  
+
+💡 Why build a cheat sheet?  
+You have used all three Claude tools in this project. Each one has a sweet spot, but it is easy to forget the differences once you move on. A cheat sheet gives you a quick reference you can pull up whenever you start a new task.  
+
+Use Claude Code if you want a tool you can run from your terminal anytime. Instead of a static document, Claude Code will write a small script that asks you what you need and recommends the right Claude tool.  
+Open your terminal and navigate to your project folder:
+```bash
+cd ~/Claude_Compare/
+```
+
+• Start Claude Code:
+```bash
+claude
+```
+
+• I'll use this following prompt:
+```bash
+Create a file called which-claude.sh that helps me decide which Claude tool to use. The script should:
+
+1. Ask me "What do you need to do?" and show these options:
+   a) Explore data or ask questions
+   b) Write code or build something
+   c) Organize files or automate tasks
+
+2. Based on my answer, recommend the right tool with a one-line explanation:
+   - a → Claude.ai: best for uploading files, asking questions, and generating Artifacts
+   - b → Claude Code: best for writing code, reading files, and building projects
+   - c → Cowork: best for organizing folders, renaming files, and hands-off tasks
+
+3. After showing the recommendation, print a quick tip for getting started with that tool.
+
+Make the script executable.
+```
+
+• Open a new terminal window and run your new tool:
+```bash
+bash ~/claude-compare/which-claude.sh
+```
+
+### Review Your Cheat Sheet
+Whatever tool you chose, review your cheat sheet and make sure it covers:  
+
+• Claude.ai -- best for exploring, quick Q&A, and generating visual Artifacts.  
+• Claude Code -- best for building, writing code, and creating files on your machine.  
+• Cowork -- best for organizing, automating file tasks, and hands-off work.  
+
 
 
 
