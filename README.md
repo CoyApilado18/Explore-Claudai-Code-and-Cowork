@@ -1,7 +1,8 @@
 ## What We'll Build
 We'll use all three Claude tools to analyze, visualize, and organize cloud role salary data, building a different output with each tool to experience their unique strengths.
 
-Diagram shows 
+Diagram shows  
+
 ![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/Diagram.png)
 
 The same dataset flows into:  
@@ -114,7 +115,7 @@ Now create an Artifact with a chart showing salary ranges by city, colored by ex
 
 ![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/salary-ranges-city-experience-artifact.png)
 
-💡 What are `Artifacts`?
+💡 What are `Artifacts`?  
 `Artifacts` are interactive visual outputs that Claude.ai renders live in your browser. They can be charts, code snippets, documents, or even small applications. You can interact with them, download them, or iterate on them with follow-up prompts.  
 
 
@@ -123,7 +124,7 @@ You've explored your salary data conversationally and generated some great chart
 
 That's where `Claude Code` comes in. It's a terminal-based coding agent that reads and writes files on your computer. You type natural language, it writes code. In this step, you'll install Claude Code, then use it to build an interactive HTML dashboard from the same salary data.  
 
-In this step, we'll:
+In this step, we'll:  
 • Install Claude Code and authenticate.  
 • Explore the salary data directly from your terminal.  
 • Build an interactive dashboard with Chart.js charts.  
@@ -131,7 +132,7 @@ In this step, we'll:
 `Claude Code` is best for building things. Unlike `Claude.ai` where you upload files to a chat window, `Claude Code` works directly with files on your machine. It can read your data, write code, run scripts, and create files autonomously.
 
 
-💡 When should I use Claude Code instead of Claude.ai?
+💡 When should I use Claude Code instead of Claude.ai?  
 Use `Claude.ai` (the browser chat) when you want to explore data, ask questions, and generate quick visuals without touching your file system. 
 Use `Claude Code` (the terminal tool) when you want to "build" something that lives on your computer, like a dashboard, a script, or a full application. `Claude Code` reads and writes real files, so the output is permanent.
 
@@ -149,7 +150,7 @@ claude
 ![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/claude.png)
 
 
-💡 What is Claude Code?
+💡 What is Claude Code?  
 `Claude Code` is a terminal-based AI coding agent by Anthropic. You run it from your command line, give it natural language instructions, and it reads, writes, and executes code directly on your computer. It's best for building tools, writing code, and creating files that live on your machine.  
 
 
@@ -163,7 +164,7 @@ Look at the cloud salary CSV in this folder and tell me what's in it
 
 `Claude Code` reads the file directly from your local filesystem. There's no uploading involved. It scans the CSV, understands the columns and rows, and gives you a summary.  
 
-💡 What's different from Claude.ai?
+💡 What's different from Claude.ai?  
 In Step 2, you uploaded the CSV to Claude.ai's chat window. Here, Claude Code reads the file directly from your computer's file system. This means it can work with files of any size and access multiple files at once without manual uploads.  
 
 
@@ -175,38 +176,38 @@ This is where Claude Code really shines. You're going to ask it to build an enti
 Create an interactive HTML dashboard that visualizes this cloud salary data. Use Chart.js loaded from a CDN, no Python. Include: a bar chart of average salary by role, a city comparison chart, and a breakdown by cloud platform. Save it as dashboard.html.
 ```
 
-Watch Claude Code work. It creates the HTML file with embedded Chart.js charts, all in one go.
+Watch Claude Code work. It creates the HTML file with embedded Chart.js charts, all in one go.  
 • If Claude Code asks for permission to create or write files, type `y` and press `Enter` to grant access.
 
 
-💡 Why is Claude Code asking for permission?
+💡 Why is Claude Code asking for permission?  
 `Claude Code` runs on your local machine and needs your explicit approval before it creates, edits, or deletes any files. This keeps you in control of what changes are made to your computer. You will see these permission prompts each time Claude Code wants to write a new file or modify an existing one.  
 
 
 • Open `dashboard.html` in your browser. You can double-click the file in your file explorer.
 ![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/dashboard-html.png)
 
-- Your dashboard is a standalone HTML file with interactive charts. You can hover over data points, and it all runs locally in your browser with zero dependencies.
-- Your dashboard may already include some filtering or interactive features depending on what Claude Code generated. Take a look at what you have before iterating.
+- Our dashboard is a standalone HTML file with interactive charts. We can hover over data points, and it all runs locally in your browser with zero dependencies.
+- Our dashboard may already include some filtering or interactive features depending on what Claude Code generated. Take a look at what we have before iterating.
 
-• Now iterate on your dashboard. Try this prompt in `Claude Code`:
+• Now I'll iterate on our dashboard. I'll type this prompt in `Claude Code`:
 ```bash
 Add a search bar
 ```
 ![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/dashboard-html-search-bar.png)
 
-💡 Why is this powerful?
-`Claude Code` writes and executes code autonomously. The output files appear directly in your folder. You can keep iterating with natural language prompts to add features like responsive layouts, dark mode toggles, or entirely new charts.
+💡 Why is this powerful?  
+`Claude Code` writes and executes code autonomously. The output files appear directly in your folder. You can keep iterating with natural language prompts to add features like responsive layouts, dark mode toggles, or entirely new charts.  
 
-Now we have got an interactive dashboard on our machine.
+Now we have got an interactive dashboard on our machine.  
 
 
 ## Step 4. Organize our Project with Cowork
-Our interactive dashboard is built and running locally. But if we take a look at our Claude_Compare/ directory, tt has the original CSV, chart images, and an HTML dashboard all mixed together. Before wrapping up, let's get everything organized.
+Our interactive dashboard is built and running locally. But if we take a look at our Claude_Compare/ directory, tt has the original CSV, chart images, and an HTML dashboard all mixed together. Before wrapping up, let's get everything organized.  
 
 "Claude Desktop" has a built-in autonomous agent called `Cowork` that works directly on our local files. We describe what we want, it handles the rest. In this step, we will install the Claude Desktop app, share our project folder with `Cowork`, and let it organize everything into a clean structure with a polished summary document.  
 
-In this step, we'll:
+In this step, we'll:  
 • Install and set up the Claude Desktop app.  
 • Share our project folder with `Cowork`.  
 • Use `Cowork` to organize files and generate a summary document.  
@@ -217,7 +218,7 @@ In this step, we'll:
 
 So far we have used `Claude.ai` in the browser and `Claude Code` in the terminal. Now it is time to set up the Claude Desktop app so we can use `Cowork`.  
 
-• Go to [claude.ai/download](https://claude.com/download)
+• Go to [claude.ai/download](https://claude.com/download)  
 • Download the `.msix` installer.  
 • Open the downloaded installer and follow the setup wizard.  
 • Launch Claude from the Start menu once installation finishes.  
@@ -226,37 +227,34 @@ So far we have used `Claude.ai` in the browser and `Claude Code` in the terminal
 
 Once you're in, now let's switch to `Cowork` mode.
 
-💡 Why install a separate app when you already have Claude.ai?
+💡 Why install a separate app when you already have Claude.ai?  
 `Claude.ai` runs in your browser and works with uploaded files. `Cowork` runs inside the desktop app and works directly on files on your computer. It can read folder contents, rename files, create new documents, and move things around, all without you typing terminal commands.  
 
-### Switch to Cowork Mode and Share Your Folder
+### Switch to Cowork Mode and Share Your Folder  
+• Look for the `Cowork` tab in the Claude Desktop app. It may appear in the sidebar on the left or at the top of the window, depending on your app version. Click it to switch modes.  
 
-• Look for the `Cowork` tab in the Claude Desktop app. It may appear in the sidebar on the left or at the top of the window, depending on your app version. Click it to switch modes.
-
-💡 What is `Cowork` best for?
-`Cowork` excels at organizing files, automating repetitive tasks, and hands-off work. You describe a goal in plain language, and Cowork handles the steps autonomously.
-
-`Cowork` can only access folders you explicitly share. This sandboxed approach keeps the rest of your computer safe.  
+💡 What is `Cowork` best for?  
+`Cowork` excels at organizing files, automating repetitive tasks, and hands-off work. You describe a goal in plain language, and Cowork handles the steps autonomously. It can only access folders you explicitly share. This sandboxed approach keeps the rest of your computer safe.  
 • Click the Work in a folder button at the bottom left of the Cowork window.  
 • Select your Claude_Compare/ folder.  
 
 `Cowork` confirms it now has access to the folder and lists the files it can see.  
 
 💡 Why do I have to share a folder?  
-Cowork runs in a sandboxed environment. It cannot see or modify any files on your computer unless you grant access to a specific folder. This protects your system while still letting Cowork do useful work.  
+`Cowork` runs in a sandboxed environment. It cannot see or modify any files on your computer unless you grant access to a specific folder. This protects your system while still letting Cowork do useful work.  
 
-How is Cowork different from Claude Code?  
+How is `Cowork` different from `Claude Code`?  
 Both tools can work with files on your computer, but they are designed for different workflows. `Claude Code` runs in your terminal and is best for writing and executing code. `Cowork` runs in the Claude Desktop app and is best for organizing, renaming, and managing files without touching the terminal. Think of `Claude Code` as your coding assistant and `Cowork` as your project manager.  
 
 ### Organize Your Files
-We might only have a CSV and an HTML file in our folder right now. That's okay! This exercise is about understanding what `Cowork` can do. Imagine we had dozens of files from a longer project. `Cowork` would save us serious time sorting through them. After this project, try pointing `Cowork` at a busy folder like your `Downloads` to see it really shine.
+We might only have a CSV and an HTML file in our folder right now. That's okay! This exercise is about understanding what `Cowork` can do. Imagine we had dozens of files from a longer project. `Cowork` would save us serious time sorting through them. After this project, try pointing `Cowork` at a busy folder like your `Downloads` to see it really shine.  
 
 I'll use this task into the Cowork chat and let's watch `Cowork` work autonomously:  
 ```bash
 Organize all the files in this folder. Create subfolders: charts/ for image files, dashboard/ for the HTML dashboard, and data/ for the CSV. Rename files with clear, descriptive names. Then create a summary document (summary.md) listing every file, which Claude tool created it, and a one-line description of what it contains.
 ```
 
-Cowork will read each file, create the subfolders, move and rename files, and generate the summary document. This may take a minute or two.  
+`Cowork` will read each file, create the subfolders, move and rename files, and generate the summary document. This may take a minute or two.  
 
 • Once Cowork finishes, let's review the organized folder structure.  
 • I'll open `summary.md` and review the contents. You can also view actual the file in this repo.  
@@ -286,7 +284,7 @@ cd ~/Claude_Compare/
 claude
 ```
 
-• I'll use this following prompt:
+• I'll use this following prompt:  
 ```bash
 Create a file called which-claude.sh that helps me decide which Claude tool to use. The script should:
 
@@ -318,6 +316,7 @@ Whatever tool you chose, review your cheat sheet and make sure it covers:
 • Cowork -- best for organizing, automating file tasks, and hands-off work.  
 
 
+-- END --  
 
 
 
