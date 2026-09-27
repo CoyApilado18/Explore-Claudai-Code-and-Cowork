@@ -2,7 +2,7 @@
 We'll use all three Claude tools to analyze, visualize, and organize cloud role salary data, building a different output with each tool to experience their unique strengths.
 
 Diagram shows 
-![alt images](Diagram.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/Diagram.png)
 
 The same dataset flows into:  
 • `Claude.ai` for conversational analysis. It is a chat interface where users uploads files, ask questions in plain English, and receive interactive visual outputs called "Artifacts", making it ideal for quick data exploration.  
@@ -70,7 +70,7 @@ Let's start a new conversation on [claude.ai](https://claude.ai/login).
 
 • Click on the plus sign on the bottom left corner of the text box.  
 • Next, click the attachment button (paperclip icon) and upload the cloud salary CSV you downloaded in Step 1.  
-![alt images](claudeai-upload-icon.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/claudeai-upload-icon.png)
 
 • Type a question in the chat. Start with something like:
 ```bash
@@ -104,7 +104,7 @@ Create an interactive bar chart as an Artifact comparing average salaries across
 • Look at the Artifact panel that appears on the right side of the screen. This is an interactive, live-rendered chart that you can hover over and explore, unlike the inline text responses from earlier.  
 • Hover over the bars in the chart to see tooltips with exact salary values.  
 
-![alt images](interactive-bar-chart.png)  
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/interactive-bar-chart.png)  
 
 
 • Try generating another chart. Type:
@@ -112,7 +112,7 @@ Create an interactive bar chart as an Artifact comparing average salaries across
 Now create an Artifact with a chart showing salary ranges by city, colored by experience level
 ```  
 
-![alt images](salary-ranges-city-experience-artifact.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/salary-ranges-city-experience-artifact.png)
 
 💡 What are `Artifacts`?
 `Artifacts` are interactive visual outputs that Claude.ai renders live in your browser. They can be charts, code snippets, documents, or even small applications. You can interact with them, download them, or iterate on them with follow-up prompts.  
@@ -146,7 +146,7 @@ claude
 ```
 
 • Confirm you see the Claude Code interactive prompt ready for input.
-![alt images](claude.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/claude.png)
 
 
 💡 What is Claude Code?
@@ -184,7 +184,7 @@ Watch Claude Code work. It creates the HTML file with embedded Chart.js charts, 
 
 
 • Open `dashboard.html` in your browser. You can double-click the file in your file explorer.
-![alt images](dashboard-html.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/dashboard-html.png)
 
 - Your dashboard is a standalone HTML file with interactive charts. You can hover over data points, and it all runs locally in your browser with zero dependencies.
 - Your dashboard may already include some filtering or interactive features depending on what Claude Code generated. Take a look at what you have before iterating.
@@ -193,7 +193,7 @@ Watch Claude Code work. It creates the HTML file with embedded Chart.js charts, 
 ```bash
 Add a search bar
 ```
-![alt images](dashboard-html-search-bar.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/dashboard-html-search-bar.png)
 
 💡 Why is this powerful?
 `Claude Code` writes and executes code autonomously. The output files appear directly in your folder. You can keep iterating with natural language prompts to add features like responsive layouts, dark mode toggles, or entirely new charts.
@@ -260,7 +260,7 @@ Cowork will read each file, create the subfolders, move and rename files, and ge
 
 • Once Cowork finishes, let's review the organized folder structure.  
 • I'll open `summary.md` and review the contents. You can also view actual the file in this repo.  
-![alt images](summary-md.png)
+![alt images](https://github.com/CoyApilado18/Explore-Claudai-Code-and-Cowork/blob/78b2002fd6ca234e29809137d4f473c302d4e3aa/images/summary-md.png)
 
 
 ## Extra Credit
