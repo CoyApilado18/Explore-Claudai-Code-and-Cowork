@@ -4,10 +4,12 @@ We'll use all three Claude tools to analyze, visualize, and organize cloud role 
 Diagram shows 
 ![alt images](Diagram.png)
 
-The same dataset flows into: 
+The same dataset flows into:  
 • `Claude.ai` for conversational analysis. It is a chat interface where users uploads files, ask questions in plain English, and receive interactive visual outputs called "Artifacts", making it ideal for quick data exploration.  
-• `Claude Code` for a local dashboard build. It is a terminal based AI coding agent that interacts directly with files on the user's machine, reading data, writing code, and creating files autonomously, always seeking explicit permission for file operations. 
-• `Cowork` for project organization.  It is an autonomous agent in the Claude Desktop app designed to organize files, automate tasks, and manage project structures directly on the local filesystem, operating within a sandboxed environment for security. 
+
+• `Claude Code` for a local dashboard build. It is a terminal based AI coding agent that interacts directly with files on the user's machine, reading data, writing code, and creating files autonomously, always seeking explicit permission for file operations.  
+
+• `Cowork` for project organization.  It is an autonomous agent in the Claude Desktop app designed to organize files, automate tasks, and manage project structures directly on the local filesystem, operating within a sandboxed environment for security.  
 
 By the end of this project, we'll have:  
 • Interactive charts exploring cloud role salary data, built with `Claude.ai` Artifacts.  
@@ -211,9 +213,58 @@ In this step, we'll:
 
 
 ### Install the Claude Desktop App
+`NOTE`: My Ubuntu24 is running on my Oracle Virtual Box and hence, I'm getting an error installing Claude Desktop as the Hardware Virtualization should be turned on. It gives me an error something like "..this cannot be turned on on this machine". In summary, I don't think the Claude Desktop will work in my Ubuntu machine. Afterall, in Linux, this is still in Beta test as what the [Claude Documentation](https://code.claude.com/docs/en/desktop-linux) states. It was tedious troubleshooting this so I switched to my Windows machine to finish the project. This step is more of a friendly "drag-and-drop" web based activity as long as you're using the same Claude acoount. The only thing I did so far is to install Claude in the git bash/wsl terminal. See [macOS, Linux, WSL](https://code.claude.com/docs/en/overview#terminal). So this step can be completed even if switching to Windows.  
+
 So far we have used `Claude.ai` in the browser and `Claude Code` in the terminal. Now it is time to set up the Claude Desktop app so we can use `Cowork`.  
 
 • Go to [claude.ai/download](https://claude.com/download)
-• Download the .dmg installer.
+• Download the `.msix` installer.  
+• Open the downloaded installer and follow the setup wizard.  
+• Launch Claude from the Start menu once installation finishes.  
+• Sign in with the same Anthropic account you used for `Claude.ai`.  
+• It will launched the Claude Desktop app then just sign-in. 
 
-https://code.claude.com/docs/en/desktop-linux#install
+Once you're in, now let's switch to `Cowork` mode.
+
+💡 Why install a separate app when you already have Claude.ai?
+`Claude.ai` runs in your browser and works with uploaded files. `Cowork` runs inside the desktop app and works directly on files on your computer. It can read folder contents, rename files, create new documents, and move things around, all without you typing terminal commands.  
+
+### Switch to Cowork Mode and Share Your Folder
+
+• Look for the `Cowork` tab in the Claude Desktop app. It may appear in the sidebar on the left or at the top of the window, depending on your app version. Click it to switch modes.
+
+💡 What is `Cowork` best for?
+`Cowork` excels at organizing files, automating repetitive tasks, and hands-off work. You describe a goal in plain language, and Cowork handles the steps autonomously.
+
+`Cowork` can only access folders you explicitly share. This sandboxed approach keeps the rest of your computer safe.  
+• Click the Work in a folder button at the bottom left of the Cowork window.  
+• Select your Claude_Compare/ folder.  
+
+`Cowork` confirms it now has access to the folder and lists the files it can see.  
+
+💡 Why do I have to share a folder?  
+Cowork runs in a sandboxed environment. It cannot see or modify any files on your computer unless you grant access to a specific folder. This protects your system while still letting Cowork do useful work.  
+
+How is Cowork different from Claude Code?  
+Both tools can work with files on your computer, but they are designed for different workflows. `Claude Code` runs in your terminal and is best for writing and executing code. `Cowork` runs in the Claude Desktop app and is best for organizing, renaming, and managing files without touching the terminal. Think of `Claude Code` as your coding assistant and `Cowork` as your project manager.  
+
+### Organize Your Files
+We might only have a CSV and an HTML file in our folder right now. That's okay! This exercise is about understanding what `Cowork` can do. Imagine we had dozens of files from a longer project. `Cowork` would save us serious time sorting through them. After this project, try pointing `Cowork` at a busy folder like your `Downloads` to see it really shine.
+
+I'll use this task into the Cowork chat and let's watch `Cowork` work autonomously:  
+```bash
+Organize all the files in this folder. Create subfolders: charts/ for image files, dashboard/ for the HTML dashboard, and data/ for the CSV. Rename files with clear, descriptive names. Then create a summary document (summary.md) listing every file, which Claude tool created it, and a one-line description of what it contains.
+```
+
+Cowork will read each file, create the subfolders, move and rename files, and generate the summary document. This may take a minute or two.  
+
+• Once Cowork finishes, let's review the organized folder structure.  
+• I'll open `summary.md` and review the contents. You can also view actual the file in this repo.  
+![alt images](summary-md.png)
+
+
+
+
+
+
+
